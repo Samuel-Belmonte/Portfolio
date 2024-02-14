@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.nav__name {
+  font-family: Comfortaa, Arial, sans-serif;
+  font-weight: 900;
+}
+
+.nav__links {
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-family: Poppins, "Times New Roman", sans-serif;
+}
+
+.nav__link:hover {
+  color: #4a9976;
+}

@@ -1,0 +1,67 @@
+.header {
+}
+
+.header__subtitle {
+  color: #4a9976;
+  font-family: Nunito, Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 650;
+  text-transform: uppercase;
+  margin-top: 48px;
+}
+
+.header__title {
+  max-width: 486px;
+  font-family: Poppins, "Times New Roman", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin: 12px 0 32px;
+}
+
+.header__description {
+  max-width: 486px;
+  font-family: Poppins, "Times New Roman", sans-serif;
+  color: #6e6a6a;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px;
+}
+
+.header__buttons {
+  font-size: 18px;
+  font-family: Roboto, "Times New Roman", sans-serif;
+  display: flex;
+  gap: 12px;
+}
+
+.header__project-button {
+  cursor: pointer;
+  background-color: #4a9976;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  width: 115px;
+  height: 43px;
+  font-weight: 500;
+}
+
+.header__project-button:hover {
+  background-color: transparent;
+  color: #4a9976;
+  border: 3px solid;
+}
+
+.header__linkedin-button {
+  cursor: pointer;
+  font-weight: 500;
+  width: 115px;
+  height: 43px;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.header__linkedin-button:hover {
+  background-color: #000;
+  color: #fff;
+}
