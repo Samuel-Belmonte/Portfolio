@@ -11,14 +11,16 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <title>Samuel Belmonte Portfolio</title>
   </head>
   <body class="page">
-    <nav class="nav page__content">
+    <nav class="nav page__section">
       <p class="nav__name">Samuel Belmonte</p>
       <ul class="nav__links">
         <li><a class="nav__link" href="">About</a></li>
@@ -26,25 +28,63 @@
         <li><a class="nav__link" href="">Contact</a></li>
       </ul>
     </nav>
-    <header class="header page__content">
-      <h2 class="header__subtitle">Software Engineer</h2>
-      <h1 class="header__title">Hello, my name is Samuel Belmonte</h1>
-      <p class="header__description">
-        Short text with details about you, what you do or your professional
-        career. You can add more information on the about page. Test
-      </p>
-      <div class="header__buttons">
-        <button class="header__project-button">
-        Projects
-        </button>
-        <button class="header__linkedin-button">LinkedIn
-        </button>
-
+    <header class="header page__section">
+      <div class="header__content">
+        <h2 class="header__subtitle">Software Engineer</h2>
+        <h1 class="header__title">Hello, my name is Samuel Belmonte</h1>
+        <p class="header__description">
+          Short text with details about you, what you do or your professional
+          career. You can add more information on the about page.
+        </p>
+        <div class="header__buttons">
+          <button class="header__project-button">Projects</button>
+          <button class="header__linkedin-button">LinkedIn</button>
+        </div>
       </div>
-      </div>
+      <img
+        src="./images/IMG_2210.jpg"
+        alt="Picture of Samuel Belmonte"
+        class="header__image"
+      />
     </header>
     <main>
-      <section class="projects"></section>
+      <section class="projects page__section">
+        <h2 class="projects__title">Projects</h2>
+        <div class="projects__rectangle"></div>
+        <div class="card">
+          <div class="card__info">
+            <h2 class="card__title">Project Name</h2>
+            <p class="card__description">
+              I created this personal project in order to show how to create an
+              interface in Figma using a portfolio as an example
+            </p>
+            <button class="card__button">View Project</button>
+          </div>
+          <img src="./images/IMG_2210.jpg" alt="" class="card__image" />
+        </div>
+        <div class="card">
+          <img src="./images/IMG_2210.jpg" alt="" class="card__image" />
+          <div class="card__info">
+            <h2 class="card__title">Project Name</h2>
+            <p class="card__description">
+              What was your role, your deliverables, if the project was
+              personal, freelancing
+            </p>
+            <button class="card__button">View Project</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__info">
+            <h2 class="card__title">Project Name</h2>
+            <p class="card__description">
+              You can also add in this description type of the project, if it
+              was for web, mobile, electron
+            </p>
+            <button class="card__button">View Project</button>
+          </div>
+          <img src="./images/IMG_2210.jpg" alt="" class="card__image" />
+        </div>
+      </section>
       <section></section>
       <section></section>
     </main>

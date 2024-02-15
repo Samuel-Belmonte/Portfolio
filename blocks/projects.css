@@ -1,0 +1,19 @@
+.projects {
+}
+
+.projects__title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  text-align: center;
+  font-family: "Playfair Display", "Times New Roman", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.projects__rectangle {
+  background-color: #4a9976;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  margin: 0 auto;
+}
