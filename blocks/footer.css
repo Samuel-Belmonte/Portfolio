@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 144px;
+}
+
+.footer__social-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  gap: 24px;
+}
+
+.footer__social-icon {
+}
+
+.footer__author {
+  text-align: center;
+  margin: 32px auto 80px;
+  font-size: 16px;
+  font-family: "Nunito", "Times New Roman", sans-serif;
+  color: #6e6a6a;
+}

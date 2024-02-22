@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 127px;
 }
 
 .header__content {
@@ -40,7 +41,6 @@
   font-family: Roboto, "Times New Roman", sans-serif;
   display: flex;
   gap: 12px;
-  margin-bottom: 255px;
 }
 
 .header__project-button {
@@ -78,6 +78,6 @@
 .header__image {
   max-width: 440px;
   max-height: 325px;
-  border-radius: 50px;
+  border-radius: 5px;
   align-self: center;
 }

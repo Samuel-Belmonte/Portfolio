@@ -23,9 +23,9 @@
     <nav class="nav page__section">
       <p class="nav__name">Samuel Belmonte</p>
       <ul class="nav__links">
-        <li><a class="nav__link" href="">About</a></li>
-        <li><a class="nav__link" href="">Projects</a></li>
-        <li><a class="nav__link" href="">Contact</a></li>
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#projects">Projects</a></li>
+        <li><a class="nav__link" href="#contact">Contact</a></li>
       </ul>
     </nav>
     <header class="header page__section">
@@ -37,8 +37,13 @@
           career. You can add more information on the about page.
         </p>
         <div class="header__buttons">
-          <button class="header__project-button">Projects</button>
-          <button class="header__linkedin-button">LinkedIn</button>
+          <a href="#projects"
+            ><button class="header__project-button">Projects</button></a
+          >
+          <a
+            href="https://www.linkedin.com/in/samuel-belmonte-b3491b28b?trk=people-guest_people_search-card"
+            ><button class="header__linkedin-button">LinkedIn</button></a
+          >
         </div>
       </div>
       <img
@@ -48,22 +53,36 @@
       />
     </header>
     <main>
-      <section class="projects page__section">
+      <section id="projects" class="projects page__section">
         <h2 class="projects__title">Projects</h2>
         <div class="projects__rectangle"></div>
         <div class="card">
           <div class="card__info">
-            <h2 class="card__title">Project Name</h2>
+            <h2 class="card__title">JavaScript Project</h2>
             <p class="card__description">
-              I created this personal project in order to show how to create an
-              interface in Figma using a portfolio as an example
+              In this project I used HTML, CSS, JavaScript, Git, and Figma. The
+              reason I created this was to make the interface more user friendly
+              and to help showcase my skills. In this project I used HTML, CSS,
+              JavaScript, Git, and Figma. The reason I created this was to make
+              the interface more user friendly and to help showcase my skills.
+              In this project I used HTML, CSS, JavaScript, Git, and Figma. The
+              reason I created this was to make the interface more user friendly
+              and to help showcase my skills.
             </p>
             <button class="card__button">View Project</button>
           </div>
-          <img src="./images/IMG_2210.jpg" alt="" class="card__image" />
+          <img
+            src="./images/pexels-james-wheeler-417074.jpg"
+            alt=""
+            class="card__image"
+          />
         </div>
         <div class="card">
-          <img src="./images/IMG_2210.jpg" alt="" class="card__image" />
+          <img
+            src="./images/TNC_PC2021_18d1bd229fb2c1c0bbc9671f4a3c9add-original.jpeg"
+            alt=""
+            class="card__image"
+          />
           <div class="card__info">
             <h2 class="card__title">Project Name</h2>
             <p class="card__description">
@@ -82,12 +101,61 @@
             </p>
             <button class="card__button">View Project</button>
           </div>
-          <img src="./images/IMG_2210.jpg" alt="" class="card__image" />
+          <img
+            src="./images/tpc18-outdoor-gallery-1693450-12040196_03_square.avif"
+            alt=""
+            class="card__image"
+          />
         </div>
       </section>
-      <section></section>
+      <section class="about page__section">
+        <div class="about__content">
+          <h2 class="about__title">About me</h2>
+          <p class="about__paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
+            sequi voluptas sunt. Voluptatibus expedita possimus at error eum
+            dolorum tempore exercitationem, velit incidunt quis veniam vitae,
+            ducimus sequi praesentium impedit.
+          </p>
+          <button class="about__button">Resume</button>
+        </div>
+        <img
+          src="./images/IMG_2210.jpg"
+          alt="Samuel Belmonte"
+          class="about__image"
+        />
+      </section>
       <section></section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer page__section">
+      <ul class="footer__social-icons">
+        <li>
+          <a href=""
+            ><img
+              class="footer__social-icon"
+              src="./images/Instagram svg.svg"
+              alt="Instagram Logo"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/samuel-belmonte-b3491b28b?trk=people-guest_people_search-card"
+            ><img
+              class="footer__social-icon"
+              src="./images/linkedin svg.png"
+              alt="LinkedIn Logo"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img
+              class="footer__social-icon"
+              src="./images/email svg.png"
+              alt="Mail Logo"
+          /></a>
+        </li>
+      </ul>
+      <p class="footer__author">Samuel Belmonte 2024</p>
+    </footer>
   </body>
 </html>
