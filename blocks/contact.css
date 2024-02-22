@@ -1,0 +1,20 @@
+.contact {
+  margin-top: 150px;
+}
+
+.contact__title {
+  text-align: center;
+  font-family: Poppins, "Times New Roman", sans-serif;
+  font-size: 45px;
+  line-height: 70px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.contact__rectangle {
+  background-color: #4a9976;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  margin: 0 auto 80px;
+}
